@@ -1,7 +1,6 @@
 body{
 	color: white !important;
 }
-
 .board_image{
 	display: none !important;
 }
@@ -26,9 +25,9 @@ hr{
 .files, .op, .hide-thread-link{
 	margin-left: 50px !important;
 }
-#arrow{
+	#arrow{
 	position: fixed;
-	bottom:8px;
+	bottom:0px;
 	right: 30px;
 
 	display: inline-block;
@@ -53,4 +52,12 @@ hr{
 }
 .files{
 	margin-top: 15px;
+}
+.pages{
+	background-color: #1E1E1E !important;
+	border-width: 0px !important;
+	border-right-width: 0px !important;
+}
+.pages a:last-child{
+	border-width: 0px !important;
 }
