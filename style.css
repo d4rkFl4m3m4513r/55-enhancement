@@ -1,0 +1,55 @@
+body{
+color: white !important;
+}
+.board_image{
+display: none !important;
+}
+
+header{
+display: none !important;
+}
+.post, .reply{
+border-radius: 1px !important;
+width: 90% !important;
+margin-left: 2% !important;
+}
+.reply:hover{
+background-color: #403F3F !important;
+}
+.unimportant{
+display: none !important;
+}
+hr{
+display: none !important;
+}
+.files, .op, .hide-thread-link{
+margin-left: 50px !important;
+}
+#arrow{
+position: fixed;
+bottom:8px;
+right: 30px;
+
+display: inline-block;
+ border-left: 3px solid; border-bottom: 3px solid;
+    width: 30px; height: 30px;
+    transform: rotate(135deg);
+cursor: hand;
+cursor: pointer;
+border-color: #999999;
+}
+
+#togglePostFormLink, #post-form-outer{
+margin-top: 40px;
+margin-bottom: 40px !important;
+}
+#togglePostFormLink a{
+color: #32DD72;
+}
+.delete #reason, .delete #password{
+width: 150px !important;
+margin-bottom: 10px;
+}
+.files{
+margin-top: 15px;
+}
