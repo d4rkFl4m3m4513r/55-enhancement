@@ -19,6 +19,9 @@ header{
 .unimportant{
 	display: none !important;
 }
+.mentioned{
+        display: block !important;
+}
 hr{
 	display: none !important;
 }
