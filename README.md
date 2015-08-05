@@ -15,7 +15,7 @@ Aconcelho a mudar a senha antes de postarem.
 >volte para o mar de mijo e no canto superior direito clique em [Opções]
 
 >clique em importar e cole o que você copiou
->
+
 >?????
 
->*profit
+>profit
