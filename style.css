@@ -1,10 +1,14 @@
 body{
 	color: white !important;
+        margin-left: 20px;
+       font-size: 13px;
 }
 .board_image{
 	display: none !important;
 }
-
+div.blotter{ 
+       color: white !important;
+}
 header{
 	display: none !important;
 }
@@ -64,6 +68,13 @@ hr{
 .pages a:last-child{
 	border-width: 0px !important;
 }
-.post.reply {
-border: 0px !important; 
+ .post.reply {
+        border: 0px !important; 
+        margin: 3px 0 0 20px !important;
  } 
+.files{
+        margin: 20px !important;
+}
+.hide-thread-link, .post-image{
+       margin-left: 0px !important;
+}
