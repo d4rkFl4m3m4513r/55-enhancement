@@ -64,3 +64,6 @@ hr{
 .pages a:last-child{
 	border-width: 0px !important;
 }
+.post.reply {
+border: 0px !important; 
+ } 
