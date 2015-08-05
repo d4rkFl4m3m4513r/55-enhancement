@@ -6,7 +6,7 @@ Espero com a contribuição de todos.
 
 Não tire os ads, graça à eles temos o nosso mar de mijo.
 
-Aconcelho a mudar a senha antes de postarem.
+Aconselho a mudar a senha antes de postarem.
 
 ###Instrucoes
 
