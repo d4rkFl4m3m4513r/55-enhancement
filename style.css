@@ -68,6 +68,7 @@ hr{
 .pages a:last-child{
 	border-width: 0px !important;
 }
+<<<<<<< HEAD
  .post.reply {
         border: 0px !important; 
         margin: 3px 0 0 20px !important;
@@ -81,3 +82,8 @@ hr{
 .op{
 	margin-left: 20px !important;
 }
+=======
+.post.reply {
+border: 0px !important; 
+}
+>>>>>>> d3af2503d5bfd5367d04bad8462299820b292e0b
