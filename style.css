@@ -81,3 +81,10 @@ hr{
 .op{
 	margin-left: 20px !important;
 }
+.delete:nth-child(17), .delete:nth-child(18), .delete:nth-child(4), .delete:nth-child(3){
+display: none !important;
+}
+.boardlist.bottom{
+display: none !important;
+}
+
