@@ -20,9 +20,7 @@ header{
 .reply:hover{
 	background-color: #403F3F !important;
 }
-.unimportant{
-	display: none !important;
-}
+
 .mentioned{
         display: block !important;
 }
@@ -113,3 +111,21 @@ background-color: #403F3F !important;
 .intro a:hover{
 	text-decoration: none;
 }
+body > footer {
+display: none !important;
+}
+
+#expand-all-images, #watch-pin, #watch-board, #gallery-view, .treeview, #watch-thread{
+display:none !important;
+     }
+
+.unimportant {
+        display: block !important;
+        opacity: 0 !important;
+        max-height: 0px !important;
+        transition: .4s ease-out !important;
+    }
+ .files:hover .unimportant {
+        opacity: 1 !important;
+        max-height: 22px !important;
+    }
