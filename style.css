@@ -21,9 +21,7 @@ header{
 	background-color: #403F3F !important;
 }
 
-.mentioned{
-        display: block !important;
-}
+
 hr{
 	display: none !important;
 }
@@ -129,3 +127,7 @@ display:none !important;
         opacity: 1 !important;
         max-height: 22px !important;
     }
+.mentioned{
+        display: block !important;
+        opacity: 1 !important;
+}
