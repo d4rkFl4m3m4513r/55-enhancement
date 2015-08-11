@@ -6,7 +6,7 @@ body{
 .board_image{
 	display: none !important;
 }
-div.blotter{ 
+div.blotter{
        color: white !important;
 }
 header{
@@ -69,9 +69,9 @@ hr{
 	border-width: 0px !important;
 }
  .post.reply {
-        border: 0px !important; 
+        border: 0px !important;
         margin: 3px 0 0 20px !important;
- } 
+ }
 .files{
         margin: 20px !important;
 }
@@ -82,9 +82,34 @@ hr{
 	margin-left: 20px !important;
 }
 .delete:nth-child(17), .delete:nth-child(18), .delete:nth-child(4), .delete:nth-child(3){
-display: none !important;
+	display: none !important;
 }
 .boardlist.bottom{
-display: none !important;
+	display: none !important;
 }
-
+.theme-catalog div.thread{
+	background-color: rgb(15, 15, 15);
+	height: auto;
+}
+.theme-catalog div.thread{
+	background-color: rgb(30, 30, 30);
+	height: auto;
+	min-height: 300px;
+	max-height: 300px;
+	width: 300px !important;
+	border-color: rgb(30, 30, 30);
+}
+.thread:hover{
+background-color: #403F3F !important;
+	border-color: black !important;
+}
+.desktop-style div.boardlist:not(.bottom){
+	font-size: 16px;
+}
+.popular{
+	color: #32DD72 !important;
+	font-weight: bold;
+}
+.intro a:hover{
+	text-decoration: none;
+}
