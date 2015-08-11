@@ -100,7 +100,14 @@ background-color: #403F3F !important;
 	border-color: black !important;
 }
 .desktop-style div.boardlist:not(.bottom){
-	font-size: 14px;
+	font-size: 13px;
+        text-shadow: none !important;
+        background: rgb(30, 30, 30);
+        text-align: center !important;
+}
+.desktop-style div.boardlist:not(.bottom):hover{
+background:#403F3F !important;
+}
 }
 .popular{
 	color: #32DD72 !important;
