@@ -25,6 +25,8 @@ function getLink(){
 		success: function(data){
 				$.each(data.threads ,function(){
 						console.log("teste");
+						$('FORM[NAME="postcontrols"]').append(' aaaaa <br>');
+
 			});
 		}
 	});
