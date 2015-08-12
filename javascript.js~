@@ -33,6 +33,8 @@ function getLink(){
 				$.each(data.threads ,function(){
 				//apend new posts		
 				$('FORM[NAME="postcontrols"]').append(' aaaaa <br>');
+						
+
 			});
 		}
 	});

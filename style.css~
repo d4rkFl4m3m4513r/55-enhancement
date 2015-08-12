@@ -1,0 +1,145 @@
+body{
+	color: white !important;
+        margin-left: 20px;
+       font-size: 13px;
+}
+.board_image{
+	display: none !important;
+}
+div.blotter{
+       color: white !important;
+}
+header{
+	display: none !important;
+}
+.post, .reply{
+	border-radius: 1px !important;
+	width: 90% !important;
+	margin-left: 2% !important;
+}
+.reply:hover{
+	background-color: #403F3F !important;
+}
+
+
+hr{
+	display: none !important;
+}
+.files, .op, .hide-thread-link{
+	margin-left: 50px !important;
+}
+	#arrow{
+	position: fixed;
+	bottom:0px;
+	right: 30px;
+
+	display: inline-block;
+	border-left: 3px solid; border-bottom: 3px solid;
+	width: 30px; height: 30px;
+	transform: rotate(135deg);
+	cursor: hand;
+	cursor: pointer;
+	border-color: #999999;
+}
+
+#togglePostFormLink, #post-form-outer{
+	margin-top: 40px;
+	margin-bottom: 40px !important;
+}
+#togglePostFormLink a{
+	color: #32DD72;
+}
+.delete #reason, .delete #password{
+	width: 150px !important;
+	margin-bottom: 10px;
+}
+.files{
+	margin-top: 15px;
+}
+.pages{
+	background-color: #1E1E1E !important;
+	border-width: 0px !important;
+	border-right-width: 0px !important;
+}
+.pages a:last-child{
+	border-width: 0px !important;
+}
+ .post.reply {
+        border: 0px !important;
+        margin: 3px 0 0 20px !important;
+ }
+.files{
+        margin: 20px !important;
+}
+.hide-thread-link, .post-image{
+       margin-left: 0px !important;
+}
+.op{
+	margin-left: 20px !important;
+}
+.delete:nth-child(17), .delete:nth-child(18), .delete:nth-child(4), .delete:nth-child(3){
+	display: none !important;
+}
+.boardlist.bottom{
+	display: none !important;
+}
+.theme-catalog div.thread{
+    background-color: rgb(15, 15, 15);
+    height: auto;
+}
+.theme-catalog div.thread{
+	background-color: rgb(30, 30, 30);
+	height: auto;
+	min-height: 300px;
+	max-height: 300px;
+	width: 300px !important;
+	border:none !important;
+        display: block;
+}
+.thread:hover{
+        background: none !important;
+	border: none !important;
+        overflow: hidden !important;
+}
+.theme-catalog div.threads{
+        margin-left: -60px !important;
+}
+.desktop-style div.boardlist:not(.bottom){
+	font-size: 13px;
+        text-shadow: none !important;
+        background: rgb(30, 30, 30);
+        text-align: center !important;
+}
+.desktop-style div.boardlist:not(.bottom):hover{
+background:#403F3F !important;
+}
+}
+.popular{
+	color: #32DD72 !important;
+	font-weight: bold;
+}
+.intro a:hover{
+	text-decoration: none;
+}
+body > footer {
+display: none !important;
+}
+
+#expand-all-images, #watch-pin, #watch-board, #gallery-view, .treeview, #watch-thread{
+display:none !important;
+     }
+
+.unimportant {
+        display: block !important;
+        opacity: 0 !important;
+        max-height: 0px !important;
+        transition: .4s ease-out !important;
+    }
+ .files:hover .unimportant {
+        opacity: 1 !important;
+        max-height: 22px !important;
+    }
+.mentioned{
+        display: block !important;
+        opacity: 1 !important;
+}
