@@ -84,8 +84,8 @@ hr{
 	display: none !important;
 }
 .theme-catalog div.thread{
-	background-color: rgb(15, 15, 15);
-	height: auto;
+    background-color: rgb(15, 15, 15);
+    height: auto;
 }
 .theme-catalog div.thread{
 	background-color: rgb(30, 30, 30);
@@ -93,11 +93,16 @@ hr{
 	min-height: 300px;
 	max-height: 300px;
 	width: 300px !important;
-	border-color: rgb(30, 30, 30);
+	border:none !important;
+        display: block;
 }
 .thread:hover{
-background-color: #403F3F !important;
-	border-color: black !important;
+        background: none !important;
+	border: none !important;
+        overflow: hidden !important;
+}
+.theme-catalog div.threads{
+        margin-left: -60px !important;
 }
 .desktop-style div.boardlist:not(.bottom){
 	font-size: 13px;
